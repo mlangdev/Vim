@@ -19,12 +19,12 @@ For windows environment, access the link https://vim.sourceforge.io/download.php
 
 ### Commands
 ```sh
-$ /  - Search
+$ / - Search
 $ :w  - Save
 $ :wq - Save and exit
 $ :q  - Exit
 $ :q! - Exit without saving
-$ :echo $HOME Root directory
+$ :echo $HOME - Root directory
 ```
 ### Config
 ```sh
@@ -44,6 +44,6 @@ $ :value + :navigation - Navigation range
 ```
 ### Mode
 ```sh
-$ i  - Insert mode
-$ esc  - Normal mode
+$ i - Insert mode
+$ esc - Normal mode
 ```
