@@ -12,7 +12,7 @@ What Is Vim?
 To install Vim in your Linux / Ubuntu environment
 
 ```sh
-$ cd apt-get intall vim
+$ sudo apt-get install vim
 ```
 
 For windows environment, access the link https://vim.sourceforge.io/download.php
