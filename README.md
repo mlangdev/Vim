@@ -25,6 +25,15 @@ $ :wq - Save and exit
 $ :q  - Exit
 $ :q! - Exit without saving
 $ :echo $HOME - Root directory
+$ == Tags indentation
+$ x - Cut
+$ y - Copy
+$ p - Paste
+$ o - insert mode + new line
+$ crtl r - Redo change
+$ u - Undo change
+$ %s - Replace ( %s/search/replace/g:Global/c:Search occurrence )
+
 ```
 ### Config
 ```sh
@@ -33,6 +42,7 @@ $ set tabstop=2 - Spacing
 $ filetype plugin indent on - identify file extension
 $ syntax on - Enable syntax coloring
 $ set shiftwidth=2 - Shift spacing
+$ set backspace=2 - Allows any line to be deleted from the file
 ```
 ### Navigation
 ```sh
@@ -46,4 +56,6 @@ $ :value + :navigation - Navigation range
 ```sh
 $ i - Insert mode
 $ esc - Normal mode
+$ shift v - Line selection visual mode
+$ ctrl v - Block selection visual mode
 ```
