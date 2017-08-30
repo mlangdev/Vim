@@ -29,12 +29,17 @@ $ == Tags indentation
 $ x - Cut
 $ y - Copy
 $ p - Paste
-$ o - insert mode + new line
+$ o - insert mode + new line after
+$ shift o - insert mode + new line before
+$ shift a - insert mode + end of the line
 $ crtl r - Redo change
 $ u - Undo change
 $ %s - Replace ( %s/search/replace/g:Global/c:Search occurrence )
 $ vs + :file Split mode
 $ crtl ww - Navigation split mode
+$ shift g - Move the cursor to the end of the file
+$ gg - Move the cursor to the beginning of the file
+
 
 ```
 ### Config
@@ -45,6 +50,11 @@ $ filetype plugin indent on - identify file extension
 $ syntax on - Enable syntax coloring
 $ set shiftwidth=2 - Shift spacing
 $ set backspace=2 - Allows any line to be deleted from the file
+$ set number - Numbering the lines on the side in the file
+$ set relativenumber - Lateral numbering for line distance
+$ set incsearch - Incremental search
+$ set hlsearch - Highlighted in search results
+$ " Create comments on files .vim
 ```
 ### Navigation
 ```sh
@@ -63,4 +73,5 @@ $ ctrl v - Block selection visual mode
 ```
 ### Plugins
 Pathogen - https://github.com/tpope/vim-pathogen
+
 NERDTree - https://github.com/scrooloose/nerdtree
