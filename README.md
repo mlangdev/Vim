@@ -75,3 +75,5 @@ $ ctrl v - Block selection visual mode
 Pathogen - https://github.com/tpope/vim-pathogen
 
 NERDTree - https://github.com/scrooloose/nerdtree
+
+Vim Theme - https://draculatheme.com/vim/
