@@ -33,6 +33,8 @@ $ o - insert mode + new line
 $ crtl r - Redo change
 $ u - Undo change
 $ %s - Replace ( %s/search/replace/g:Global/c:Search occurrence )
+$ vs + :file Split mode
+$ crtl ww - Navigation split mode
 
 ```
 ### Config
@@ -59,3 +61,6 @@ $ esc - Normal mode
 $ shift v - Line selection visual mode
 $ ctrl v - Block selection visual mode
 ```
+### Plugins
+Pathogen - https://github.com/tpope/vim-pathogen
+NERDTree - https://github.com/scrooloose/nerdtree
